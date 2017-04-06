@@ -1,0 +1,164 @@
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .container {
+    width: 768px;
+    margin: 0 auto;
+  }
+  .top_contacts__list {
+    left: -65px;
+  }
+  .sidebar {
+    width: 100%;
+    padding-right: 0;
+  }
+  .menu {
+    margin-bottom: 30px;
+  }
+  .menu__list {
+    text-align: center;
+  }
+  .menu__item {
+    display: inline-block;
+  }
+  .menu__item .active {
+    box-shadow: none;
+  }
+  .menu__link:active {
+    box-shadow: none;
+  }
+  .main {
+    float: left;
+    max-width: 100%;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 95%;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .top_contacts__list {
+    left: -65px;
+  }
+  .about__left {
+    float: left;
+    padding: 0;
+    vertical-align: top;
+    min-width: 100%;
+  }
+  .about__right {
+    margin-top: 20px;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+  .download {
+    text-align: center;
+  }
+  .career {
+    padding: 0;
+  }
+  .main {
+    width: 100%;
+  }
+  .title {
+    text-align: center;
+  }
+  .career__left {
+    width: 100%;
+    text-align: center;
+  }
+  .career__img {
+    float: none;
+  }
+  .career__right {
+    width: 100%;
+    text-align: center;
+  }
+  .career__list {
+    margin: 0;
+  }
+  .career__item {
+    text-align: left;
+  }
+  .career__item:before, .career__item:after {
+    display: none;
+  }
+  .career__marker {
+    display: none;
+  }
+  .portfolio {
+    padding: 0;
+  }
+  .portfolio_wrap {
+    text-align: center;
+  }
+  .portfolio .title {
+    text-align: center;
+  }
+  .portfolio__list {
+    padding: 0;
+  }
+  .portfolio__list__item {
+    text-align: left;
+  }
+  .footer {
+    height: 90px;
+    margin-top: -90px;
+  }
+  .footer__left {
+    float: none;
+  }
+  .footer__right {
+    float: none;
+  }
+  .socials {
+    text-align: center;
+  }
+  .copyright {
+    text-align: center;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 520px) {
+  body {
+    font-size: 14px;
+  }
+  .top_contacts__trigger {
+    border-bottom: none;
+  }
+  .top_contacts__trigger:hover {
+    color: #33bfe2;
+    border-bottom: none;
+  }
+  .top_contacts__trigger i {
+    display: block;
+    margin-right: 20px;
+    font-size: 30px;
+  }
+  .top_contacts__trigger span {
+    display: none;
+  }
+  .menu__link__icon {
+    display: none;
+  }
+  .top_contacts__list {
+    left: -150px;
+  }
+  .copyright {
+    padding-top: 0;
+  }
+}
+
+/* Custom, iPhone Retina */
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+/* Large Devices, Wide Screens */
